@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", serif;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+/* =================Navbar Start Here================= */
+#navbar{
+    padding: 23px 0;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.menu li a{
+    color: #606D93;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalizes;
+}
+.menu li a:hover{
+    color: #192252;
+    text-shadow: 5px 5px 40px rgba(0, 0, 0, 0.5);
+    transition: all linear 0.3s;
+}
+.nav_btn{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav_btn a{
+    display: inline-block;
+    background-color: #6345D5;
+    border-radius: 8px;
+    padding: 16px 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    border: 1px solid #6345D5;
+    transition: all linear 0.2s;
+    box-shadow: 1px 1px 15px;
+
+}
+.nav_btn a:hover{
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+}
+/* =================NavBar Start Here=================== */
+/* =================Banner Start Here=================== */
+
+.shape1, .shape2, .shape3{
+    position: relative;
+}
+.shape1 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.shape2{
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.shape3 img{
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+.banner_wrapper{
+    display: flex;
+    gap: 54px;
+    padding-top: 215px;
+    padding-bottom: 660px;
+}
+.banner_desc{
+    width: 503px;
+    position: relative;
+    z-index: 999;
+}
+.banner_desc h1{
+    color: #192252;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.banner_desc p{
+    color: #848FAC;
+    max-width: 332px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 40px 0;
+}
+.banner_btn{
+    display: flex;
+    gap: 24px;
+}
+.banner_btn a:first-child{
+    display: inline-block;
+    background-color: #6345D5;
+    border-radius: 8px;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    border: 1px solid #6345D5;
+    transition: all linear 0.2s;
+    box-shadow: 1px 1px 15px;
+    display: inline-block;
+}
+.banner_btn a:first-child:hover{
+    display: inline-block;
+    background-color: transparent;
+    color: #6345D5;
+}
+.banner_btn a:last-child{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 40px;
+    color: #6345D5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    transition: all linear 0.3s;
+    box-shadow: 1px 1px 15px;
+    display: inline-block;
+}
+.banner_btn a:last-child:hover{
+    background-color: #6345D5;
+    color: #fff;
+}
+.banner_img{
+    width: 683px;
+    position: relative;
+    left: 40px;
+    bottom: 15px;
+    z-index: 999;
+}
+.banner_bigimg_box{
+    position: relative;
+}
+.banner_bigimg{
+    width: 100%;
+    height: 882px;
+    border-radius: 24px;
+    background: #D9D9D9;
+    position: absolute;
+    bottom: -422px;
+    z-index: 999;
+    overflow: hidden;
+}
+.banner_bigimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* =================Banner End Here=================== */
+/* =================Counter Start Here=================== */
+#counter{
+    background-color: #192252;
+    /* height: 1000px; */
+    padding-top: 522px;
+    padding-bottom: 32px;
+}
+.counter_wrapper{
+    padding: 48px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter_item{
+    /* width: 28%;
+    height: 50px; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+.counter_item::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    transform: translate(64px ,-50%);
+    height: 32px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.20);
+}
+.counter_item .count_number{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.counter_item .count_title{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+.counter_item:first-child{
+    justify-content: start;
+}
+.counter_item:last-child{
+    justify-content: end;
+}
+.counter_item:last-child::after{
+    background-color: transparent;
+}
+/* =================Counter End Here=================== */
+/* =================Feature Start Here=================== */
+#feature{
+    padding: 100px 0;
+    background-color: #201353;
+}
+.feature_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.feature_heading h2{
+    color: #fff;
+    max-width: 514px;
+    font-size: 52px;
+    line-height: normal;
+    font-weight: 700;
+}
+.feature_heading p{
+    max-width: 555px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 18px;
+}
+.feature_wrapper{
+    margin-top: 42px;
+}
+.feature_wrapper .transition{
+    width: 368px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 24px;
+}
+.transition .transition_heading{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.transition .transition_heading h4{
+    color: #192252;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+}
+.transition > p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #848FAC;
+}
+.transition .progress{
+    margin-top: 24px;
+    height: 4px;
+    border-radius: 2px;
+    position: relative;
+    background-color: #eff3fa;overflow: hidden;
+}
+.transition .progress::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    height: 100%;
+    width: 40%;
+    background-color: #6345D5;
+    top: 0;
+    border-radius: 2px;
+}
+/* =================Feature End Here=================== */
