@@ -1,0 +1,222 @@
+/* =================Navbar Start Here================= */
+@media only screen and (max-width: 575.99px) {
+    .container{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .menu{
+        display: none;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .nav_wrapper {
+        justify-content: space-between;
+        }
+        .logo{
+            width: 10%;
+            margin-left: 20px;
+        }
+        #navbar{
+            padding: 10px 0;
+        }
+        .hamburger{
+            display: block;
+      }
+      .banner_img {
+        display: none;
+    }
+    .shape3 img{
+     display: none;
+    }
+    .banner_desc h1 {
+        font-size: 40px;
+    }
+    .shape2 {
+        position: absolute;
+        right: 0;
+        top: 50px;
+    }
+
+}
+
+
+/* =================banner Start Here================= */
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .container{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .menu{
+        display: none;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .nav_wrapper {
+    justify-content: space-between;
+    }
+    .logo{
+        width: 10%;
+        margin-left: 20px;
+    }
+    #navbar{
+        padding: 10px 0;
+    }
+    .hamburger{
+        display: block;
+  }
+  .banner_img {
+    display: none;
+    }
+.shape3 img{
+    display: none;
+   }
+   .banner_desc h1 {
+    font-size: 40px;
+    }
+    .shape2 {
+        position: absolute;
+        right: 0;
+        top: 50px;
+    }
+    .banner_desc p {
+        line-height: 110%;
+        padding: 30px 0;
+    }
+    .banner_btn a:first-child {
+        border-radius: 7px;
+        padding: 20px 40px;
+        font-size: 16px;
+        line-height: 10px;
+        letter-spacing: 0;
+    }
+    .banner_btn a:last-child {
+        border-radius: 7px;
+        padding: 20px 40px;
+        font-size: 16px;
+        line-height: 10px;
+        letter-spacing: 0;
+    }
+    .banner_btn {
+        display: flex;
+        gap: 14px;
+    }
+    .banner_bigimg {
+        height: 418px;
+        bottom: -202px;
+    }
+    .banner_wrapper {
+        padding-top: 140px;
+        padding-bottom: 285px;
+    }
+    #counter {
+        padding-top: 286px;
+        padding-bottom: 56px;
+    }
+    .counter_wrapper {
+        padding: 14px;
+        border-radius: 14px;
+    }
+    .counter_item .count_number {
+        font-size: 15px;
+    }
+    .counter_item .count_title {
+        font-size: 15px;
+    }
+    .counter_item::after {
+        transform: translate(25px ,-50%);
+        height: 23px;
+    }
+} 
+
+/* =================counter Start Here================= */
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .container{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .menu{
+        display: none;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .nav_wrapper {
+    justify-content: space-between;
+    }
+    .logo{
+        width: 10%;
+        margin-left: 20px;
+    }
+    #navbar{
+        padding: 10px 0;
+    }
+    .hamburger{
+        display: block;
+  }
+  .banner_img {
+    display: none;
+}
+/* // */
+
+.shape3 img{
+    display: none;
+   }
+   .banner_desc h1 {
+    font-size: 40px;
+    }
+    .shape2 {
+        position: absolute;
+        right: 0;
+        top: 50px;
+    }
+    .banner_desc p {
+        line-height: 110%;
+        padding: 30px 0;
+    }
+    .banner_btn a:first-child {
+        border-radius: 7px;
+        padding: 20px 40px;
+        font-size: 16px;
+        line-height: 10px;
+        letter-spacing: 0;
+    }
+    .banner_btn a:last-child {
+        border-radius: 7px;
+        padding: 20px 40px;
+        font-size: 16px;
+        line-height: 10px;
+        letter-spacing: 0;
+    }
+    .banner_btn {
+        display: flex;
+        gap: 14px;
+    }
+    .banner_bigimg {
+        height: 418px;
+        bottom: -202px;
+    }
+    .banner_wrapper {
+        padding-top: 140px;
+        padding-bottom: 285px;
+    }
+    #counter {
+        padding-top: 286px;
+        padding-bottom: 56px;
+    }
+    .counter_wrapper {
+        padding: 14px;
+        border-radius: 14px;
+    }
+    .counter_item .count_number {
+        font-size: 15px;
+    }
+    .counter_item .count_title {
+        font-size: 15px;
+    }
+    .counter_item::after {
+        transform: translate(25px ,-50%);
+        height: 23px;
+    }
+} 
